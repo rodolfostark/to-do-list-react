@@ -1,0 +1,38 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa; /* Cor de fundo da página */
+}
+
+a {
+  color: #1890ff; /* Cor dos links */
+}
+
+a:hover {
+  color: #40a9ff; /* Cor dos links no hover */
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #1890ff; /* Cor de fundo dos botões */
+  color: #fff; /* Cor do texto dos botões */
+}
+
+button:hover {
+  background-color: #40a9ff; /* Cor de fundo dos botões no hover */
+}
+
+button:disabled {
+  background-color: #d9d9d9; /* Cor de fundo dos botões desabilitados */
+  color: #bfbfbf; /* Cor do texto dos botões desabilitados */
+  cursor: not-allowed;
+}
